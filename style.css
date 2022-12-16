@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Efeitos paralax */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    background-image: url(mac.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #ff0000;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    color: #686360;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    transform: scale(1.2);
+}
+
+.botao {
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+
+}
+
+.Main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+    line-height: 28px;
+}
+
+h4 {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 65px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    width: 430px;
+
+}
+
+.botao2 form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 25px;
+}
+
+.botao2 form input:first-child {
+    color: #ff0000;
+    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 15px;
+    outline: none;
+}
+
+.botao2 form input:last-child {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+
+}
+
+.background-color-sobre {
+    background-color: #101010;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0 px;
+    bottom: 230px;
+}
+
+.background-color-sobre img {
+    width: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: -400px;
+}
+
+.text-sobre {
+    width: 550px;
+    align-items: left;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+
+.Main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.text-sobre h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.text-sobre h5 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.botao3 {
+    background-color: #ff0000;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+
+.botao3:hover {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+}
+
+.servicos {
+    background-image: url(./img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.title h2 {
+    color: #fff;
+    font-size: 65px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cardProprio {
+    background-color: #191919;
+    height: 400px;
+    width: 365px;
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cardProprio i {
+    top: 20px;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    margin: 10px auto 10px;
+    padding: 10px;
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+.cardProprio h5 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.cardProprio p {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.backgroundpreto{
+    background-color: #101010;
+    width: 100%;
+    height: 80vh;
+}
+.contact {
+    width: 100%;
+    height: 50vh;
+
+}
+
+.iconDev {
+    background-image: url(icondev.png);
+    background-size: cover;
+    background-position: inherit;
+    width: 100px;
+    height: 100px;
+}
+
+.frase {
+    top: 40%;
+    left: 8%;
+    line-height: 28px;
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 28px;
+    height: 80px;
+    width: 80%;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
